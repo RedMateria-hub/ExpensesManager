@@ -1,0 +1,14 @@
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\bin\Debug\net8.0\ExpensesManager.Database.deps.json
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\bin\Debug\net8.0\ExpensesManager.Database.dll
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\bin\Debug\net8.0\ExpensesManager.Database.pdb
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.dll
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\refint\ExpensesManager.Database.dll
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.pdb
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ref\ExpensesManager.Database.dll
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\bin\Debug\net8.0\ExpensesManager.Database.runtimeconfig.json
+C:\Users\LENOVO\source\repos\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.genruntimeconfig.cache
