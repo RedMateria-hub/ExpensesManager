@@ -19,6 +19,5 @@ namespace ExpensesManager.Database.Entities
 
         public DateTime? ModifiedAt { get; set; }
 
-        public DateTime? DeletedAt { get; set; }
     }
 }

@@ -1,6 +1,0 @@
-@ExpensesManager_HostAddress = http://localhost:5099
-
-GET {{ExpensesManager_HostAddress}}/expensesmanager/
-Accept: application/json
-
-###

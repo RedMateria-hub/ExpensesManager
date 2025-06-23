@@ -1,0 +1,15 @@
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\bin\Debug\net8.0\ExpensesManager.Database.deps.json
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\bin\Debug\net8.0\ExpensesManager.Database.runtimeconfig.json
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\bin\Debug\net8.0\ExpensesManager.Database.dll
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\bin\Debug\net8.0\ExpensesManager.Database.pdb
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.csproj.AssemblyReference.cache
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.AssemblyInfoInputs.cache
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.AssemblyInfo.cs
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.csproj.CoreCompileInputs.cache
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.sourcelink.json
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.dll
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\refint\ExpensesManager.Database.dll
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.pdb
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ExpensesManager.Database.genruntimeconfig.cache
+C:\Users\danignat\source\repos\RedMateria-hub\ExpensesManager\ExpensesManager.Database\obj\Debug\net8.0\ref\ExpensesManager.Database.dll
