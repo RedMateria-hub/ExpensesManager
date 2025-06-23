@@ -17,7 +17,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Get()
         {
             var expenses = await _service.GetAllAsync();
@@ -25,7 +25,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpGet("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Get(int id)
         {
             var expense = await _service.GetByIdAsync(id);
@@ -34,7 +34,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Post([FromBody] CreateExpenseDto dto)
         {
             var result = await _service.AddAsync(dto);
@@ -45,7 +45,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpPut("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Put(int id, [FromBody] CreateExpenseDto dto)
         {
             var updated = await _service.UpdateAsync(id, dto);
@@ -54,7 +54,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Delete(int id)
         {
             var deleted = await _service.DeleteAsync(id);

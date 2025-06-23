@@ -34,6 +34,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetById(int id)
         {
             try
@@ -64,7 +65,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Post(CreateUserDto createUserDto)
         {
             try
@@ -129,7 +130,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Delete(int id)
         {
             try

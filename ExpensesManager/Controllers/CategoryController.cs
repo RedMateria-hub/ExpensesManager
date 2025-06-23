@@ -17,7 +17,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Get()
         {
             var result = await _service.GetAllAsync();
@@ -25,7 +25,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpGet("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Get(int id)
         {
             var result = await _service.GetByIdAsync(id);
@@ -34,7 +34,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Post([FromBody] CreateCategoryDto dto)
         {
             var result = await _service.AddAsync(dto);
@@ -42,7 +42,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpPut("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Put(int id, [FromBody] CreateCategoryDto dto)
         {
             var updated = await _service.UpdateAsync(id, dto);
@@ -51,7 +51,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> Delete(int id)
         {
             var deleted = await _service.DeleteAsync(id);
