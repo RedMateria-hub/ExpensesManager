@@ -60,7 +60,7 @@ namespace ExpensesManager.Core.Services
             {
                 Name = createUserDto.Name,
                 Email = createUserDto.Email,
-                Password = BCrypt.Net.BCrypt.HashPassword(createUserDto.Password), // Hash password
+                Password = BCrypt.Net.BCrypt.HashPassword(createUserDto.Password),
                 Role = "User",
                 IsActive = true
             };

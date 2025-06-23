@@ -8,7 +8,7 @@ namespace ExpensesManager.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize] // Require authentication for all endpoints
+    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly IUserService _service;
@@ -19,7 +19,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")] // Only admins can get all users
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAll()
         {
             try
@@ -38,14 +38,12 @@ namespace ExpensesManager.Controllers
         {
             try
             {
-                // Get current user ID from JWT token
                 var currentUserIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
                 if (currentUserIdClaim == null || !int.TryParse(currentUserIdClaim.Value, out int currentUserId))
                 {
                     return Unauthorized();
                 }
 
-                // Users can only get their own data, unless they're admin
                 if (id != currentUserId && !User.IsInRole("Admin"))
                 {
                     return Forbid("You can only access your own data");
@@ -66,7 +64,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")] // Only admins can create users directly
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Post(CreateUserDto createUserDto)
         {
             try
@@ -104,14 +102,12 @@ namespace ExpensesManager.Controllers
                     return BadRequest(ModelState);
                 }
 
-                // Get current user ID from JWT token
                 var currentUserIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
                 if (currentUserIdClaim == null || !int.TryParse(currentUserIdClaim.Value, out int currentUserId))
                 {
                     return Unauthorized();
                 }
 
-                // Users can only update their own data, unless they're admin
                 if (id != currentUserId && !User.IsInRole("Admin"))
                 {
                     return Forbid("You can only update your own data");
@@ -133,7 +129,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Admin")] // Only admins can delete users
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             try
