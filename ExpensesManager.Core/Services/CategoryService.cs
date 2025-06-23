@@ -37,14 +37,14 @@ namespace ExpensesManager.Core.Services
                 Id = c.Id,
                 Name = c.Name,
                 Description = c.Description,
-                Expenses = c.Expenses.Select(e => new ExpenseDto
-                {
-                    Id = e.Id,
-                    Amount = e.Amount,
-                    PaymentDate = e.PaymentDate,
-                    Receiver = e.Receiver,
-                    UserId = e.UserId
-                }).ToList()
+                //Expenses = c.Expenses.Select(e => new ExpenseDto
+                //{
+                //    Id = e.Id,
+                //    Amount = e.Amount,
+                //    PaymentDate = e.PaymentDate,
+                //    Receiver = e.Receiver,
+                //    UserId = e.UserId
+                //}).ToList()
             }).ToList();
         }
 
@@ -58,14 +58,14 @@ namespace ExpensesManager.Core.Services
                 Id = category.Id,
                 Name = category.Name,
                 Description = category.Description,
-                Expenses = category.Expenses.Select(e => new ExpenseDto
-                {
-                    Id = e.Id,
-                    Amount = e.Amount,
-                    PaymentDate = e.PaymentDate,
-                    Receiver = e.Receiver,
-                    UserId = e.UserId
-                }).ToList()
+                //Expenses = category.Expenses.Select(e => new ExpenseDto
+                //{
+                //    Id = e.Id,
+                //    Amount = e.Amount,
+                //    PaymentDate = e.PaymentDate,
+                //    Receiver = e.Receiver,
+                //    UserId = e.UserId
+                //}).ToList()
             };
         }
 
@@ -84,8 +84,8 @@ namespace ExpensesManager.Core.Services
             {
                 Id = created.Id,
                 Name = created.Name,
-                Description = created.Description,
-                Expenses = new List<ExpenseDto>()
+                Description = created.Description
+                //Expenses = new List<ExpenseDto>()
             };
         }
 
@@ -104,8 +104,12 @@ namespace ExpensesManager.Core.Services
 
         public async Task<bool> DeleteAsync(int id)
         {
-            var category = await _repository.GetByIdAsync(id);
-            if (category == null) return false;
+            var category = await _repository.GetByIdWithExpensesAsync(id);
+            if (category == null)
+                return false;
+
+            if (category.Expenses != null && category.Expenses.Any())
+                throw new InvalidOperationException("Can't delete category because it has an expense associated with it.");
 
             await _repository.DeleteAsync(category);
             return true;

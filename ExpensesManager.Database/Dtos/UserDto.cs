@@ -15,6 +15,5 @@ namespace ExpensesManager.Database.Dtos
         [Required]
         [EmailAddress]
         public string Email { get; set; }
-        public List<ExpenseDto> Expenses { get; set; } = new List<ExpenseDto>();
     }
 }

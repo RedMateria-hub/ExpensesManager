@@ -86,21 +86,16 @@ namespace ExpensesManager.Core.Services
             {
                 Id = user.Id,
                 Name = user.Name,
-                Email = user.Email,
-                Expenses = user.Expenses?.Select(e => new ExpenseDto
-                {
-                    Id = e.Id,
-                    Amount = e.Amount,
-                    PaymentDate = e.PaymentDate,
-                    Receiver = e.Receiver,
-                    UserId = e.UserId,
-                    Category = e.Category != null ? new CategoryDto
-                    {
-                        Id = e.Category.Id,
-                        Name = e.Category.Name,
-                        Description = e.Category.Description
-                    } : null
-                }).ToList() ?? new List<ExpenseDto>()
+                Email = user.Email
+                //Expenses = user.Expenses?.Select(e => new ExpenseDto
+                //{
+                //    Id = e.Id,
+                //    Amount = e.Amount,
+                //    PaymentDate = e.PaymentDate,
+                //    Receiver = e.Receiver,
+                //    UserId = e.UserId,
+                //    CategoryId = e.CategoryId,
+                //}).ToList() ?? new List<ExpenseDto>()
             };
         }
     }

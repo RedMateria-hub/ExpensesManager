@@ -31,21 +31,16 @@ namespace ExpensesManager.Core.Services
             {
                 Id = a.Id,
                 Name = a.Name,
-                Email = a.Email,
-                Expenses = a.Expenses.Select(b => new ExpenseDto
-                {
-                    Id = b.Id,
-                    Amount = b.Amount,
-                    PaymentDate = b.PaymentDate,
-                    Receiver = b.Receiver,
-                    Category = new CategoryDto
-                    {
-                        Id = b.Category.Id,
-                        Name = b.Category.Name,
-                        Description = b.Category.Description
-                    },
-                    UserId = b.UserId,
-                }).ToList()
+                Email = a.Email
+                //Expenses = a.Expenses.Select(b => new ExpenseDto
+                //{
+                //    Id = b.Id,
+                //    Amount = b.Amount,
+                //    PaymentDate = b.PaymentDate,
+                //    Receiver = b.Receiver,
+                //    UserId = b.UserId,
+                //    CategoryId = b.CategoryId,
+                //}).ToList()
             });
         }
         public async Task<UserDto> GetByIdAsync(int id)

@@ -16,6 +16,7 @@ namespace ExpensesManager.Database.Repos
         Task<Category> AddAsync(Category category);
         Task UpdateAsync(Category category);
         Task DeleteAsync(Category category);
+        Task<Category?> GetByIdWithExpensesAsync(int id);
     }
 
 
@@ -55,6 +56,12 @@ namespace ExpensesManager.Database.Repos
             await _context.SaveChangesAsync();
         }
 
+        public async Task<Category?> GetByIdWithExpensesAsync(int id)
+        {
+            return await _context.Categories
+                .Include(c => c.Expenses)
+                .FirstOrDefaultAsync(c => c.Id == id);
+        }
         public async Task DeleteAsync(Category category)
         {
             _context.Categories.Remove(category);

@@ -13,6 +13,6 @@ namespace ExpensesManager.Database.Dtos
         public DateTime PaymentDate { get; set; }
         public string Receiver { get; set; }
         public int UserId { get; set; }
-        public CategoryDto Category { get; set; } = new CategoryDto();
+        public int CategoryId { get; set; }
     }
 }
