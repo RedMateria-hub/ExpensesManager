@@ -18,10 +18,14 @@ namespace ExpensesManager.Controllers
 
         [HttpGet]
         [Authorize(Roles = "User")]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery] ExpenseQueryParameters parameters)
         {
-            var expenses = await _service.GetAllAsync();
-            return Ok(expenses);
+            var result = await _service.GetAllAsync(parameters);
+
+            Response.Headers.Add("X-Pagination",
+                System.Text.Json.JsonSerializer.Serialize(result.Pagination));
+
+            return Ok(result);
         }
 
         [HttpGet("{id}")]
@@ -61,6 +65,8 @@ namespace ExpensesManager.Controllers
             if (!deleted) return NotFound();
             return NoContent();
         }
+
+        
     }
 
 }

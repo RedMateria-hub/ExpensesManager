@@ -34,7 +34,7 @@ namespace ExpensesManager.Controllers
         }
 
         [HttpGet("{id}")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> GetById(int id)
         {
             try

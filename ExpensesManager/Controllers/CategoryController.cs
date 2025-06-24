@@ -18,9 +18,13 @@ namespace ExpensesManager.Controllers
 
         [HttpGet]
         [Authorize(Roles = "User")]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery] CategoryQueryParameters parameters)
         {
-            var result = await _service.GetAllAsync();
+            var result = await _service.GetAllAsync(parameters);
+
+            Response.Headers.Add("X-Pagination",
+                System.Text.Json.JsonSerializer.Serialize(result.Pagination));
+
             return Ok(result);
         }
 

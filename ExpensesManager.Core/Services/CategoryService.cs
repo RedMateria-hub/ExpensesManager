@@ -11,7 +11,7 @@ namespace ExpensesManager.Core.Services
 {
     public interface ICategoryService
     {
-        Task<List<CategoryDto>> GetAllAsync();
+        Task<PagedResult<CategoryDto>> GetAllAsync(CategoryQueryParameters parameters);
         Task<CategoryDto?> GetByIdAsync(int id);
         Task<CategoryDto> AddAsync(CreateCategoryDto dto);
         Task<bool> UpdateAsync(int id, CreateCategoryDto dto);
@@ -28,24 +28,22 @@ namespace ExpensesManager.Core.Services
             _repository = repository;
         }
 
-        public async Task<List<CategoryDto>> GetAllAsync()
+        public async Task<PagedResult<CategoryDto>> GetAllAsync(CategoryQueryParameters parameters)
         {
-            var categories = await _repository.GetAllAsync();
+            var result = await _repository.GetAllAsync(parameters);
 
-            return categories.Select(c => new CategoryDto
+            var categoryDtos = result.Data.Select(c => new CategoryDto
             {
                 Id = c.Id,
                 Name = c.Name,
-                Description = c.Description,
-                //Expenses = c.Expenses.Select(e => new ExpenseDto
-                //{
-                //    Id = e.Id,
-                //    Amount = e.Amount,
-                //    PaymentDate = e.PaymentDate,
-                //    Receiver = e.Receiver,
-                //    UserId = e.UserId
-                //}).ToList()
+                Description = c.Description
             }).ToList();
+
+            return new PagedResult<CategoryDto>
+            {
+                Data = categoryDtos,
+                Pagination = result.Pagination
+            };
         }
 
         public async Task<CategoryDto?> GetByIdAsync(int id)

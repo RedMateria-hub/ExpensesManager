@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4D9FBD1-CABF-4A2B-9FCC-4EED0E05BF6A}|ExpensesManager.Core\\ExpensesManager.Core.csproj|c:\\users\\danignat\\source\\repos\\redmateria-hub\\expensesmanager\\expensesmanager.core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4D9FBD1-CABF-4A2B-9FCC-4EED0E05BF6A}|ExpensesManager.Core\\ExpensesManager.Core.csproj|solutionrelative:expensesmanager.core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04FB9F2F-85B7-4B94-9432-0A10C5419FF6}|ExpensesManager\\ExpensesManager.csproj|c:\\users\\danignat\\source\\repos\\redmateria-hub\\expensesmanager\\expensesmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04FB9F2F-85B7-4B94-9432-0A10C5419FF6}|ExpensesManager\\ExpensesManager.csproj|solutionrelative:expensesmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04FB9F2F-85B7-4B94-9432-0A10C5419FF6}|ExpensesManager\\ExpensesManager.csproj|c:\\users\\danignat\\source\\repos\\redmateria-hub\\expensesmanager\\expensesmanager\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04FB9F2F-85B7-4B94-9432-0A10C5419FF6}|ExpensesManager\\ExpensesManager.csproj|solutionrelative:expensesmanager\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002A7222-970D-4791-8946-00880DEB8DAF}|ExpensesManager.Database\\ExpensesManager.Database.csproj|c:\\users\\danignat\\source\\repos\\redmateria-hub\\expensesmanager\\expensesmanager.database\\repos\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002A7222-970D-4791-8946-00880DEB8DAF}|ExpensesManager.Database\\ExpensesManager.Database.csproj|solutionrelative:expensesmanager.database\\repos\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{002A7222-970D-4791-8946-00880DEB8DAF}|ExpensesManager.Database\\ExpensesManager.Database.csproj|c:\\users\\danignat\\source\\repos\\redmateria-hub\\expensesmanager\\expensesmanager.database\\repos\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{002A7222-970D-4791-8946-00880DEB8DAF}|ExpensesManager.Database\\ExpensesManager.Database.csproj|solutionrelative:expensesmanager.database\\repos\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9FBD1-CABF-4A2B-9FCC-4EED0E05BF6A}|ExpensesManager.Core\\ExpensesManager.Core.csproj|c:\\users\\danignat\\source\\repos\\redmateria-hub\\expensesmanager\\expensesmanager.core\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9FBD1-CABF-4A2B-9FCC-4EED0E05BF6A}|ExpensesManager.Core\\ExpensesManager.Core.csproj|solutionrelative:expensesmanager.core\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D9FBD1-CABF-4A2B-9FCC-4EED0E05BF6A}|ExpensesManager.Core\\ExpensesManager.Core.csproj|c:\\users\\danignat\\source\\repos\\redmateria-hub\\expensesmanager\\expensesmanager.core\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D9FBD1-CABF-4A2B-9FCC-4EED0E05BF6A}|ExpensesManager.Core\\ExpensesManager.Core.csproj|solutionrelative:expensesmanager.core\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04FB9F2F-85B7-4B94-9432-0A10C5419FF6}|ExpensesManager\\ExpensesManager.csproj|c:\\users\\danignat\\source\\repos\\redmateria-hub\\expensesmanager\\expensesmanager\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04FB9F2F-85B7-4B94-9432-0A10C5419FF6}|ExpensesManager\\ExpensesManager.csproj|solutionrelative:expensesmanager\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04FB9F2F-85B7-4B94-9432-0A10C5419FF6}|ExpensesManager\\ExpensesManager.csproj|c:\\users\\danignat\\source\\repos\\redmateria-hub\\expensesmanager\\expensesmanager\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04FB9F2F-85B7-4B94-9432-0A10C5419FF6}|ExpensesManager\\ExpensesManager.csproj|solutionrelative:expensesmanager\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +51,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Core\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "ExpensesManager.Core\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Core\\Services\\UserService.cs",
-              "RelativeToolTip": "ExpensesManager.Core\\Services\\UserService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwFwAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager\\Program.cs",
+              "RelativeDocumentMoniker": "ExpensesManager\\Program.cs",
+              "ToolTip": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager\\Program.cs",
+              "RelativeToolTip": "ExpensesManager\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwE8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T20:11:03.134Z",
+              "WhenOpened": "2025-06-23T22:51:57.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ExpensesManager\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ExpensesManager\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:34:18.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpenseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Database\\Repos\\ExpenseRepository.cs",
+              "RelativeDocumentMoniker": "ExpensesManager.Database\\Repos\\ExpenseRepository.cs",
+              "ToolTip": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Database\\Repos\\ExpenseRepository.cs",
+              "RelativeToolTip": "ExpensesManager.Database\\Repos\\ExpenseRepository.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwDUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:03:29.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Database\\Repos\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "ExpensesManager.Database\\Repos\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Database\\Repos\\CategoryRepository.cs",
+              "RelativeToolTip": "ExpensesManager.Database\\Repos\\CategoryRepository.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAADwv3oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:03:28.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExpenseService.cs",
+              "DocumentMoniker": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Core\\Services\\ExpenseService.cs",
+              "RelativeDocumentMoniker": "ExpensesManager.Core\\Services\\ExpenseService.cs",
+              "ToolTip": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Core\\Services\\ExpenseService.cs",
+              "RelativeToolTip": "ExpensesManager.Core\\Services\\ExpenseService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:01:41.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Core\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "ExpensesManager.Core\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager.Core\\Services\\CategoryService.cs",
+              "RelativeToolTip": "ExpensesManager.Core\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:01:39.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "ExpensesManager\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "ExpensesManager\\Controllers\\ExpenseController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T21:59:57.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ExpensesManager\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\danignat\\source\\repos\\RedMateria-hub\\ExpensesManager\\ExpensesManager\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ExpensesManager\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:01:00.763Z",
               "EditorCaption": ""
             }
           ]

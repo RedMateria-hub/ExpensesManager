@@ -11,7 +11,7 @@ namespace ExpensesManager.Core.Services
 {
     public interface IExpenseService
     {
-        Task<List<Expense>> GetAllAsync();
+        Task<PagedResult<Expense>> GetAllAsync(ExpenseQueryParameters parameters);
         Task<Expense?> GetByIdAsync(int id);
         Task<Expense?> AddAsync(CreateExpenseDto dto);
         Task<bool> UpdateAsync(int id, CreateExpenseDto dto);
@@ -26,9 +26,9 @@ namespace ExpensesManager.Core.Services
             _repository = repository;
         }
 
-        public async Task<List<Expense>> GetAllAsync()
+        public async Task<PagedResult<Expense>> GetAllAsync(ExpenseQueryParameters parameters)
         {
-            return await _repository.GetAllAsync();
+            return await _repository.GetAllAsync(parameters);
         }
 
         public async Task<Expense?> GetByIdAsync(int id)
